@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/39589198be.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        font-family: "Open Sans", sans-serif;
+      }
+      header > #container {
+        width: 100%;
+        height: auto;
+        background-color: #252525;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+      }
+      header > #container > div:nth-of-type(1) {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      header > #container > div:nth-of-type(2) {
+        color: white;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+      header > #container > div:nth-of-type(2) > div:nth-of-type(1) {
+        color: white;
+      }
+      header > #container > div:nth-of-type(2) > div:nth-of-type(2) {
+        color: white;
+      }
+      header > #container > div:nth-of-type(2) > div:nth-of-type(3) {
+        color: white;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+      }
+      header > #container > div:nth-of-type(2) > div:nth-of-type(4) {
+        color: white;
+      }
+      header > #container > div:nth-of-type(2) > div:nth-of-type(5) {
+        color: white;
+      }
+      header > #container > div:nth-of-type(2) > div:nth-of-type(6) > img {
+        width: 40px;
+      }
+      nav > #container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      nav > #container > div:nth-of-type(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        gap: 20px;
+      }
+      nav > #container > div:nth-of-type(1) > span:nth-of-type(7) {
+        color: red;
+      }
+      nav > #container > div:nth-of-type(1) > img {
+        width: 300px;
+      }
+      nav
+        > #container
+        > div:nth-of-type(2)
+        > div:nth-of-type(2)
+        > span
+        > button {
+        background-color: red;
+        color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        border: none;
+        border-radius: 10px;
+      }
+      nav
+        > #container
+        > div:nth-of-type(2)
+        > div:nth-of-type(2)
+        > span
+        > button
+        p {
+        margin: 0px;
+      }
+      nav > #container > div:nth-of-type(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+      main {
+        width: 90%;
+        height: auto;
+
+        margin: auto;
+      }
+      main > #container2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+      }
+      main > #container2 > div {
+        width: 100%;
+        height: auto;
+
+        position: relative;
+      }
+      main > #container2 > div > img {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      main > #container2 > div > p:nth-of-type(1) {
+        font-size: 12px;
+
+        margin: 0px;
+        margin-left: 10px;
+      }
+      main > #container2 > div > p:nth-of-type(2) {
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+      main > #container2 > div > h3 {
+        margin: 0px;
+        margin-left: 10px;
+      }
+      main > #container2 > div > i:nth-of-type(1) {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        left: 90%;
+        top: 4%;
+      }
+      main > #container2 > div > i:nth-of-type(2) {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        left: 90%;
+        top: 85%;
+      }
+      main > #container2 > div > span {
+        font-size: 12px;
+        background-color: aqua;
+        padding: 5px;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        left: 10px;
+        top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="container">
+        <div>
+          <details>
+            <summary>MORE BRANDS</summary>
+          </details>
+        </div>
+        <div>
+          <div>
+            <i class="fa-solid fa-location-dot" style="color: #ffffff"></i>
+            <span>STORES</span>
+          </div>
+          <div>
+            <i class="fa-regular fa-address-book"></i>
+            <span>CONTACT US</span>
+          </div>
+          <div>
+            <span class="material-symbols-outlined"> person </span>
+            <span>LOG IN</span>
+          </div>
+          <div><i class="fa-regular fa-heart"></i></div>
+          <div><i class="fa-solid fa-cart-shopping"></i></div>
+          <div>
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div id="container">
+          <div>
+            <img
+              src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/header_brand_logo_RBK.png?q=75&auto=format"
+              alt=""
+            />
+
+            <span>NEW</span>
+            <span>ICONS</span>
+            <span>MEN</span>
+            <span>WOMEN</span>
+            <span>SPORTS</span>
+            <span> CLASSIC</span>
+            <span>SALE</span>
+          </div>
+          <div>
+            <div>
+              <span> <label for="site-search">Search</label></span>
+              <span><input type="search" id="site-search" name="q" /></span>
+              <span><button>Search</button></span>
+            </div>
+            <div>
+              <span>
+                <button>
+                  <div><i class="fa-solid fa-truck"></i></div>
+                  <div>
+                    <span>EXPRESS DELIVERY</span>
+                    <p>Select your nearest store</p>
+                  </div>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="container2">
+        <div>
+          <img
+            src="https://imagescdn.reebok.in/img/app/product/3/39627944-12965381.jpg?q=75&auto=format&w=387"
+            alt=""
+          />
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-regular fa-square"></i>
+
+          <p>TRAINING SHOES</p>
+          <p>Reebok Women NFX Trainer</p>
+          <span>I AM THE NEW</span>
+          <h3>₹ 7,599</h3>
+        </div>
+        <div>
+          <img
+            src="https://imagescdn.reebok.in/img/app/product/3/39622100-12725965.jpg?q=75&auto=format&w=387"
+            alt=""
+          />
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-regular fa-square"></i>
+          <p>TRAINING SHOES</p>
+          <p>Reebok Women NFX Trainer</p>
+          <span>I AM THE NEW</span>
+          <h3>₹ 7,599</h3>
+        </div>
+        <div>
+          <img
+            src="https://imagescdn.reebok.in/img/app/product/3/39622122-12729311.jpg?q=75&auto=format&w=387"
+            alt=""
+          />
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-regular fa-square"></i>
+          <p>TRAINING SHOES</p>
+          <p>Reebok Women NFX Trainer</p>
+          <span>I AM THE NEW</span>
+          <h3>₹ 7,599</h3>
+        </div>
+        <div>
+          <img
+            src="https://imagescdn.reebok.in/img/app/product/3/39622737-12760528.jpg?q=75&auto=format&w=387"
+            alt=""
+          />
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-regular fa-square"></i>
+          <p>TRAINING SHOES</p>
+          <p>Reebok Women NFX Trainer</p>
+          <span>I AM THE NEW</span>
+          <h3>₹ 7,599</h3>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
